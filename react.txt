@@ -1,0 +1,33 @@
+//____________________REACT________________//
+react is case sensitive
+JSX- jsxml - inside javascript , html k code ko run krwate hai
+
+JSX is a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript files.
+
+inside project it gives predefined folders and files. 
+
+in package.json file we have dependencies that 
+we need to install some dependencies for react project to work properly.
+
+package.lock.json - it is a file that locks the version of the dependencies we are using in our project.
+it have full information about the dependencies and their versions.
+
+ bootstrap 
+ reactrouter-dom  - for routing in react
+ material-ui for responsive design
+ enter design - we get design templates
+ 
+ Public folder - it contains the index.html file which is the entry point of our react application.
+src folder - it contains the main code of our react application.
+
+node_modules - it contains all the dependencies we have installed in our project.
+
+import React from 'react';
+const App = () => {
+  return (
+    <div>
+      <h1>Hello, React!</h1>    // react fragments
+    </div>
+  );
+}
+
